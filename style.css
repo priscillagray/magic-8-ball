@@ -1,0 +1,61 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background: black;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.columns{
+    display:flex;
+}
+
+.col-left{
+
+  padding-right:0px;
+}
+
+.col-right{
+    padding-left:0px;
+  text-align:right;
+}
+.adviceEye {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    padding: 0.5em;
+    position: relative;
+}
+
+#adviceDisplay {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   font-weight: 700;
+   transform: translate(-50%, -50%);
+}
+
+button {
+    border: none;
+    padding: 0.5em 1em;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#success-message{
+    color:white;
+    text-align:center;
+    font-weight:bold;
+}
